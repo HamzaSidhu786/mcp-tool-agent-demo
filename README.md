@@ -46,9 +46,16 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+### 2. Running the Client
+```bash
+uv run client.py calculator_server.py
+```
+
+
 This will automatically start the MCP client and connect to the MCP server.
 
 Try this in the Streamlit app:
+
 
 ```
 What is the reminder if I divide 11 by 3?
